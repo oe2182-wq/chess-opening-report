@@ -1,0 +1,11 @@
+# Raw chess.com monthly archives (re-download with the chess.com public API)
+data/
+# Chess.com piece images: permission covers use in this tool, not redistribution
+assets/pieces/*
+!assets/pieces/README.md
+# Lichess explorer download (built locally by tools/fetch_explorer.py)
+assets/explorer.json
+*.tmp
+.lichess-token
+__pycache__/
+.DS_Store
